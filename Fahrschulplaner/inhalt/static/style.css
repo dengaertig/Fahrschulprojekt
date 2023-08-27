@@ -1,0 +1,43 @@
+
+.navbar-custom {
+    background-color: #009688;
+    height: 50%;
+
+}
+body {
+	background-image: url(img/backgroundb1.jpg);
+	background-position: bottom center; 
+	background-repeat: no-repeat; 
+	background-size:cover; 
+	background-attachment:fixed;
+    color: white;
+}
+
+.navbar-brand {
+    margin-left: 20%;
+    color: white !important;
+}
+
+.container-lg {
+    background-color: rgb(31, 31, 31) !important;
+    color: white;
+    padding: 50px !important;
+    border-radius: 20px !important;
+    margin-top: 20px;
+}
+
+a {
+    color: white !important;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    padding-left: 20%;
+    padding-right: 30%;
+    color: white !important;
+}
+
+.container-2 {
+    position:relative;
+}
+
