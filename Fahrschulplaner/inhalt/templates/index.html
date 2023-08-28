@@ -1,39 +1,58 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block page_content %}
+
 <div class="container-lg">
-    <h1>Ihre Software zur Verwaltung Ihrer Fahrschule</h1>
+    <h1>Ihre Software zur Verwaltung Ihrer Fahrschule</h1><br>
      <p><span>Fahrstunden schnell, einfach und zu jeder Zeit verwalten.</span>
         Der Fahrschulplaner ist ein Online-Kalender, der optimal für Mobile-, Tablet- und Desktop-Geräte entwickelt worden ist.
-        Er ersetzt Ihre herkömmlichen Planungen, spart Zeit und digitalisiert sämtliche Fahrstunden sowie Termine Ihrer Fahrschule.
-        Mit dem Fahrschulplaner können Fahrschüler ihre geplanten Fahrstunden erfragen und es gibt eine komfortable Erinnerungsfunktion, damit keine einzige Fahrstunde vergessen wird. In einer übersichtlichen Tages-, Wochen- und Monatsansicht hat der Fahrschüler die Möglichkeit für die Zeit des Führerscheinunterrichts zu planen und Terminkollisionen zu vermeiden.
+        Er ersetzt Ihre herkömmlichen Planungen, spart Zeit und digitalisiert sämtliche Fahrstunden sowie Termine Ihrer Fahrschule.<br>
+        Mit dem Fahrschulplaner können Fahrschüler ihre geplanten Fahrstunden erfragen und es gibt eine komfortable Erinnerungsfunktion, damit keine einzige Fahrstunde vergessen wird. In einer übersichtlichen Tages-, Wochen- und Monatsansicht hat der Fahrschüler die Möglichkeit für die Zeit des Führerscheinunterrichts zu planen und Terminkollisionen zu vermeiden.<br><br>
         Eine der wichtigsten Funktionen für Fahrschüler ist die Buchungsmöglichkeit für Fahrstunden. Somit kann sich jeder Fahrschüler bei Bedarf für die Zeit eintragen, die er frei hat und für die er Fahrstunden nehmen will. Dadurch sind die Fahrschüler wesentlich flexibler, denn sie können zu Hause in Ruhe den Kalender durchgehen und ihre Verabredungen mit dem Fahrlehrer komfortabel daheim planen.
-        Für die Fahrschullehrer bietet der Fahrschulplaner die Verwaltung von Fahrschülern an. Es können Termine angelegt werden. Der Fahrschullehrer erfährt durch das Fahrschulmanagementtool die Termine, die der Fahrschüler ausgesucht hat. Durch den Fahrschulleiter können die Fahrschulfahrzeuge verwaltet werden und es können die Theoriezeiten angegeben werden.
+        Für die Fahrschullehrer bietet der Fahrschulplaner die Verwaltung von Fahrschülern an. Es können Termine angelegt werden. Der Fahrschullehrer erfährt durch das Fahrschulmanagementtool die Termine, die der Fahrschüler ausgesucht hat. Durch den Fahrschulleiter können die Fahrschulfahrzeuge verwaltet werden und es können die Theoriezeiten angegeben werden.<br>
         Das Tool bietet die Funktionen für Zusage, Absage und den Gegenvorschlag. Der Fahrschulleiter kann die Fahrlehrer und ihre Fahrzeiten verwalten. Die Software bietet eine ausführliche Statistik zur Auswertung von Fahrstunden und weitere Informationen.
     </p>
+
 </div>
-</div>
-<div class="container">
-    <h2>Fahrschule</h2>
+
+<div class="container-lg">
+    <div class="row">
+        <div class="col-sm">
+    <h2>Fahrschule</h2><br>
         <p>Sparen Sie Zeit im Fahrschulbüro für andere wichtige Fragen Ihrer Fahrschüler zum Führerschein und ermöglichen Ihren Fahrschülern einfach und übersichtlich ihre Fahrstunden online zu buchen.
         Verwalten Sie ganz einfach und unkompliziert Termine, Theoriezeiten, Fahrstunden und vieles mehr Ihrer Fahrschule online.
         Behalten Sie durch den Fahrschulplaner stets den Überblick.
         mehr erfahren
         </p>
-    <img src="{% static 'img/pngegg.png' %}" width="40%" heigth="40%" alt="image">
+        </div>
+    
+    <div class="col-sm">
+    <img src="{% static 'img/booking.jpg' %}" width="80%" heigth="80%" alt="image">
+    </div>
 </div>
-<div class="container">
-    <img src="{% static 'img/pngegg.png' %}" width="40%" heigth="40%" alt="image">
-    <h2>Fahrschüler</h2>
+</div>
+<div class="container-lg">
+    <div class="row">
+    <div class="col-sm">
+    <img src="{% static 'img/resevation.jpg' %}" width="80%" heigth="80%" alt="image">
+    </div>
+    <div class="col-sm">
+    <h2>Fahrschüler</h2><br>
         <p>
             Binden Sie Ihre Fahrschüler nicht mehr an bestimmte Bürozeiten Ihrer Fahrschule, sondern geben Ihnen die Möglichkeit Fahrstunden jeder Zeit und rund um die Uhr zu buchen.
             Bieten Sie Ihren Fahrschülern stets einen guten Überblick über anstehende Termine Ihrer Fahrschule, sowie die gefahrenen und geplanten Fahrstunden.
             mehr erfahren
         </p>
+    </div>
 </div>
-<button type="button" class="btn btn-primary btn-lg">Large button</button>
+</div>
+</div>
 
-<div class="container">
+<div class="d-grid gap-2 col-2 mx-auto">
+    <button class="btn btn-primary" type="button">90 Tage kostenlos testen</button>
+  </div>
+
+<div class="container-lg">
     <h2>Funktionen und Vorteile</h2>
         <p>
             Die Vorteile liegen klar auf der Hand. Fahrschüler müssen nicht bei jeder Fahrstunde direkt entscheiden, wann sie das nächste Mal Zeit haben, sondern können gemütlich zu Hause überlegen, wann ihnen der nächste Termin passt. Damit können Fahrschüler über diesen Fahrschulplaner einfacher ihre Fahrstundenplanungen durchführen.
@@ -41,32 +60,39 @@
             Die Fahrschulleiter hingegen haben eine größere Übersicht und dürfen die Daten jederzeit analysieren und können Urlaubsplanungen und Fahrzeugauslastung einfacher umsetzen. Damit hilft der Fahrschulplaner bei praktisch allen anfallenden Verwaltungsaufgaben und kann wertvolle Zeit und Kosten sparen.
         </p>
 </div>
-
-<div class="container">
+</div>
+<div class="container-lg">
     <div class="row">
+
         <div class="col">
-            <h3>Alles im Blick</h3>
+            <i class="bi bi-calendar"></i><br>
+            <h3>Alles im Blick</h3><br>
             <p>Durch die Darstellung der Fahrstunden im Kalender behalten Sie und Ihre Fahrschüler stets den Überblick.</p>
         </div>
         <div class="col">
+            <i class="bi bi-hand-thumbs-up"></i>
             <h3>Einfach zu bedienen</h3>
             <p>Der Fahrschulplaner wurde mit echten Benutzern auf Einfachheit und Zugänglichkeit entwickelt. Es ist schnell verständlich und intuitiv bedienbar.</p>
         </div>
         <div class="w-100"></div>
         <div class="col">
+            <i class="bi bi-chat-right-text"></i>
             <h3>Plattformunabhängig</h3>
             <p>Fahrschulplaner kann auf Smartphone, Tablet oder PC verwenden werden.</p>
         </div>
         <div class="col">
+            <i class="bi bi-pencil"></i>
             <h3>Fahrschüler verwalten</h3>
             <p>Neue Fahrschüler anlegen, bestehende Fahrschüler verwalten oder Fahrschüler sperren.</p>
         </div>
         <div class="w-100"></div>
         <div class="col">
+            <i class="bi bi-house"></i>
             <h3>Filialen, Fahrlehrer und Fahrzeiten</h3>
             <p>Verwalten Sie Ihre Fahrschule einfach und schnell mit wenigen klicks.</p>
             </div>
         <div class="col">
+            <i class="bi bi-clock"></i>
             <h3>Online-Büro</h3>
             <p>Sparen Sie Zeit und Geld durch weniger Verwaltungsaufwand im Fahrschulbüro.</p>
         </div>

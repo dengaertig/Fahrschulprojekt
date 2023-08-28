@@ -13,17 +13,56 @@ body {
     color: white;
 }
 
+.d-grid .btn {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-weight: bold !important;
+    border: 2px #00ceb9 solid !important;
+    background-color: #009688 !important;
+    border-color: black;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    font-size: large !important;
+}
+
 .navbar-brand {
     margin-left: 20%;
     color: white !important;
 }
 
-.container-lg {
+.container-lg, .container-lg-1{
     background-color: rgb(31, 31, 31) !important;
     color: white;
-    padding: 50px !important;
+    padding: 40px !important;
     border-radius: 20px !important;
     margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.col i {
+    font-size: xxx-large;
+}
+
+h3 {
+    padding-top: 20px;
+}
+.col {
+    text-align: center;
+}
+.container-big {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-lg-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 85%;
 }
 
 a {
