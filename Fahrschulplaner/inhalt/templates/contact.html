@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block page_content %}
+{% load bootstrap5 %}
+{% bootstrap_css %}
+<div class="container-big">
+<div class="container-1">
+  <h1>Kontakt</h1>
+  <p>
+    Bitte beschreiben Sie ihr Problem so genau wie möglich, ich werde mich
+    zeitnah bei Ihnen melden.
+  </p>
+  <p>Felder mit * sind Pflichtfelder.</p>
+  <form action="/contact/" method="post" class="form">
+    {% csrf_token %} {% bootstrap_form form %} 
+    {% buttons %} 
+    {% bootstrap_button "Senden" button_type="submit" button_class="btn-primary" size="lg" %} 
+    {% endbuttons %}
+  </form>
+</div>
+</div>
+{% endblock page_content %}

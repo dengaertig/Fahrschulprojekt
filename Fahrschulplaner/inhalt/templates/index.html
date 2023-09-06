@@ -1,7 +1,8 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block page_content %}
-
+{% load bootstrap5 %}
+{% bootstrap_css %}
 <div class="d-flex container-fluid" lc-helper="background" style="height:50vh;background:url(https://images.unsplash.com/photo-1553782097-130fef5d3e27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80)  center / cover no-repeat;">
 </div>
 <div class="container p-5 bg-light" style="margin-top:-100px">
@@ -11,15 +12,15 @@
                 <div editable="rich">
                     <p class="display-4 text-secondary">WARUM?</p>
                 </div>
-            </div><!-- /lc-block -->
-        </div><!-- /col -->
+            </div>
+        </div>
         <div class="col-md-8">
             <div class="lc-block ">
                 <div editable="rich">
                     <p class="display-4">Sei ein Teil der Zukunft. Digitalisiere deine Fahrschule, sei einen Schritt vorraus.</p>
                 </div>
-            </div><!-- /lc-block -->
-        </div><!-- /col -->
+            </div>
+        </div>
     </div>
     <div class="row">
         <div class="col-md-9 offset-md-1">
@@ -28,8 +29,8 @@
                     <p class="lead text-secondary"> Die Digitalisierung erleichtert unseren Alltag. Bei der digitalen Transformation geht es darum, mit Hilfe digitaler Technologien die Prozesse, die Kultur und die Nutzererfahrung zu verändern und so neue Geschäftsmodelle einzuführen.&nbsp;</p>
                     <p class="lead text-secondary">Digitalisiert eine Fahrschule mehrere Aspekte seiner Geschäftstätigkeit, ist das Ergebnis eine neue, digitalisierte, schnellere, kosteneffizientere Fahrschule mit einer besseren Benutzererfahrung und schnellere Dienstleistungen. </p>
                 </div>
-            </div><!-- /lc-block -->
-        </div><!-- /col -->
+            </div>
+        </div>
     </div>
 </div>
 
@@ -129,5 +130,6 @@
         </div>
         </div>
   </div>
+{% bootstrap_javascript %}
 {% endblock page_content %}
    

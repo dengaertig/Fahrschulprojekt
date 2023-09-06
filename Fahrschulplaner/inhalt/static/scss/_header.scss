@@ -1,0 +1,22 @@
+.navbar {
+
+    margin-bottom: 50px;
+    
+    &.navbar-custom {
+         background-color: rgb(248, 249, 250);
+         height: 50%;
+         margin-top: 20px;
+     }
+
+    .navbar-brand {
+        margin-left: 20%;
+        color: #444444 !important;
+    }
+
+    .navbar-nav {
+        margin-left: auto;
+        padding-left: 20%;
+        padding-right: 30%;
+    }
+    
+}

@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'inhalt',
+    'django_sass',
+    'bootstrap5',
 ]
 
 MIDDLEWARE = [
@@ -118,9 +120,21 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR,'inhalt/static'),]
+STATIC_ROOT = 'inhalt/static'
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR,'node_modules'),]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'k3nkox@gmail.com'
+EMAIL_HOST_PASSWORD = 'kghijiqvdbfzktyk'
+EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = 'webmaster@localhost'
+EMAIL_USE_SSL = False
