@@ -130,11 +130,13 @@ STATICFILES_DIRS = [
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'k3nkox@gmail.com'
-EMAIL_HOST_PASSWORD = 'kghijiqvdbfzktyk'
-EMAIL_USE_TLS = True
+
+# EMAIL Setup to send Contact Form Emails via Gmail #
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' # Email Backend
+EMAIL_HOST = 'smtp.gmail.com' # Gmail smtp
+EMAIL_PORT = 587 # Port
+EMAIL_HOST_USER = 'k3nkox@gmail.com' # Host User
+EMAIL_HOST_PASSWORD = 'kghijiqvdbfzktyk' # App Password
+EMAIL_USE_TLS = True # Prevents unauthorized access
 DEFAULT_FROM_EMAIL = 'webmaster@localhost'
 EMAIL_USE_SSL = False

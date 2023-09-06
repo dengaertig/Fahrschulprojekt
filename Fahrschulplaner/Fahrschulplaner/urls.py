@@ -19,8 +19,12 @@ from django.urls import path, include
 from inhalt.views import contact, success
 
 urlpatterns = [
+    # admin page #
     path('admin/', admin.site.urls),
+    # homepage index # 
     path('', include('inhalt.urls')),
+    # contact_form page #
     path('contact/', contact, name="contact"),
+    # contact_form after success #
     path('success/', success, name="success"),
 ]
